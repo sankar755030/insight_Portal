@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ExportControl_Sprint5_Suite" verbose="2" parallel="false">
+
+    <!-- Sprint 5 -->
+    <test name="Sprint5_PBIs">
+        <classes>
+            <class name="tests.ExportControl.Sprint5.PBI_251471_Instruction_Forms"/>
+            <class name="tests.ExportControl.Sprint5.PBI_251470_Staff_Management_Admin"/>
+            <class name="tests.ExportControl.Sprint5.PBI_247368_Attachment_Component_Integration_EndUser"/>
+            <class name="tests.ExportControl.Sprint5.PBI_248110_Instruction_Pages"/>
+            <class name="tests.ExportControl.Sprint5.PBI_247367_Staff_Component_Integration_EndUser"/>
+        </classes>
+    </test>
+
+</suite>

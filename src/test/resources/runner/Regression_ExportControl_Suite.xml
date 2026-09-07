@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression_ExportControl_Suite">
+
+    <test name="RegressionTests">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="tests.ExportControl.*"/>
+        </packages>
+    </test>
+
+</suite>

@@ -1,0 +1,61 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ExportControl_All_Sprints_Suite" verbose="2" parallel="false">
+
+    <!-- Sprint 1 -->
+    <test name="Sprint1_PBIs">
+        <classes>
+            <class name="tests.ExportControl.Sprint1.PBI_239192_Create_New_Form_In_Export_Control_Flows"/>
+            <class name="tests.ExportControl.Sprint1.PBI_239497_RecordTypes_Flow"/>
+            <class name="tests.ExportControl.Sprint1.PBI_239497_Status_Management_Flow"/>
+            <class name="tests.ExportControl.Sprint1.PBI_239497_TransactionTypes_Flow"/>
+        </classes>
+    </test>
+
+    <!-- Sprint 2 -->
+    <test name="Sprint2_PBIs">
+        <classes>
+            <class name="tests.ExportControl.Sprint2.PBI_239474_WorkflowManagement_Stepname_Flow"/>
+            <class name="tests.ExportControl.Sprint2.PBI_239474_WorkflowManagement_Workflows"/>
+            <class name="tests.ExportControl.Sprint2.PBI_239475_WorkflowManagement_ActionName_Flow"/>
+            <class name="tests.ExportControl.Sprint2.PBI_239475_WorkflowManagement_Ancillary_Workflow_Flow"/>
+            <class name="tests.ExportControl.Sprint2.PBI_239475_WorkflowManagement_Rules_Flow"/>
+        </classes>
+    </test>
+
+    <!-- Sprint 3 -->
+    <test name="Sprint3_PBIs">
+        <classes>
+            <class name="tests.ExportControl.Sprint3.PBI_239498_Template_Management"/>
+            <class name="tests.ExportControl.Sprint3.PBI_239498_Template_Management_Negative_Cases"/>
+        </classes>
+    </test>
+
+    <!-- Sprint 4 -->
+    <test name="Sprint4_PBIs">
+        <classes>
+            <class name="tests.ExportControl.Sprint4.PBI_239491_My_Actions"/>
+            <class name="tests.ExportControl.Sprint4.PBI_239492_Forms_Visibility"/>
+            <class name="tests.ExportControl.Sprint4.PBI_239502_Menu_Flow"/>
+            <class name="tests.ExportControl.Sprint4.PBI_241726_Initial_Review_Workflow"/>
+            <class name="tests.ExportControl.Sprint4.PBI_241727_Status_Management_Edit_Flow"/>
+            <class name="tests.ExportControl.Sprint4.PBI_243952_Review_letter"/>
+            <class name="tests.ExportControl.Sprint4.PBI_245940_Initial_Application_Management"/>
+            <class name="tests.ExportControl.Sprint4.PBI_245943_Amend_Export_Control"/>
+            <class name="tests.ExportControl.Sprint4.PBI_246016_Add_Checklist_Flow"/>
+            <class name="tests.ExportControl.Sprint4.PBI_246016_Display_Checklist_Flow"/>
+            <class name="tests.ExportControl.Sprint4.PBI_248591_Administration_DropDown"/>
+        </classes>
+    </test>
+
+    <!-- Sprint 5 -->
+    <test name="Sprint5_PBIs">
+        <classes>
+            <class name="tests.ExportControl.Sprint5.PBI_241725_Communication_Management"/>
+            <class name="tests.ExportControl.Sprint5.PBI_247514_Response_To_Review"/>
+            <class name="tests.ExportControl.Sprint5.PBI_248109_Notes"/>
+            <class name="tests.ExportControl.Sprint5.PBI_251474_Category_Configuration_Attachment_Admin"/>
+        </classes>
+    </test>
+
+</suite>
